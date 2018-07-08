@@ -1,1 +1,14 @@
-To be continued...
+To convert your sqlite highlights and annotations to DOCX run the following command:
+
+python KoboNotesPython.py toDOCX pathToYourSQLITEFile outPathIncludingNameOfDOCX
+
+Example:
+
+python KoboNotesPython.py toDOCX ../SQLiteFiles/KoboReader.sqlite test/koboAURA20180707.docx
+
+
+Dependencies:
+
+pandas
+sqlite3
+python-docx
