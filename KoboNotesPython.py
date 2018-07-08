@@ -46,6 +46,8 @@ def loadDatabase(file):
     
     content = content.drop_duplicates(subset=['ContentID'])
     
+    conn.close()
+    
     return bookmark,content
     
 def createUnifiedDatabase(bookmark,content):
